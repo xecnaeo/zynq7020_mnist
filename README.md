@@ -1,15 +1,15 @@
 # zynq7020_mnist
 A simple neural network that identifies mnist is deployed in the PL of zynq7020 to implement forward prediction.
 
-# 项目流程
+## 项目流程
 
-## 一、生成预先计划的图片数据文件
+### 一、生成预先计划的图片数据文件
 使用python脚本读取csv文件：read_image_v01.py
 
-## 二、搭建模型，训练神经网络，得到权重参数
+### 二、搭建模型，训练神经网络，得到权重参数
 使用python脚本实现：neural_v02.py
 
-## 三、HLS + Vivado + Vitis 设计
+### 三、HLS + Vivado + Vitis 设计
 在xilinx文件夹下存放已经编译过的工程文件
 
 
